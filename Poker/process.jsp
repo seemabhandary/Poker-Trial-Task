@@ -11,6 +11,24 @@
 
 <%
 
+Map<String,String[]> mp = request.getParameterMap();
+/*
+Enumeration<String> paramNames = request.getParameterNames();
+
+while(paramNames.hasMoreElements())
+{
+	System.out.println(paramNames.nextElement());
+}
+
+
+
+System.out.println("map -->"+paramNames.toString());
+ */
+ for (Map.Entry<String,String[]> entry : mp.entrySet()) 
+    System.out.println("Key = " + entry.getKey() +
+                     ", Value = " + entry.getValue()); 
+
+
 List<String> lstHand1 =  new ArrayList<String>(5);
 lstHand1.add(request.getParameter("Hand1Input1"));
 lstHand1.add(request.getParameter("Hand1Input2"));
@@ -26,12 +44,17 @@ lstHand2.add(request.getParameter("Hand2Input3"));
 lstHand2.add(request.getParameter("Hand2Input4"));
 lstHand2.add(request.getParameter("Hand2Input5"));
 
-String winningHand = PokerUtil.play(lstHand1 , lstHand2);
 
 
+
+String winningHand = PokerUtil.play(request.getParameterMap());
+
+System.out.println(winningHand);
 
 
 %>
+
+<%=winningHand%>
 
 </body>
 </html>

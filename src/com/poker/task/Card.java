@@ -3,13 +3,13 @@ package com.poker.task;
 public class Card {
 
 	private String suit;
-	private Rank rank;
-
+	private int rank;
+	
 	public Card() {
 
 	}
 
-	public Card(String suit, Rank rank) {
+	public Card(String suit, int rank) {
 		this.suit = suit;
 		this.rank = rank;
 	}
@@ -22,11 +22,11 @@ public class Card {
 		this.suit = suit;
 	}
 
-	public Rank getRank() {
+	public int getRank() {
 		return rank;
 	}
 
-	public void setRank(Rank rank) {
+	public void setRank(int rank) {
 		this.rank = rank;
 	}
 

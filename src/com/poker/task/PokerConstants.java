@@ -1,14 +1,13 @@
 package com.poker.task;
 
 /**
+ * Class containing constants used across the application
+ * 
  * @author Seema Bhandary
  *
  */
 public class PokerConstants {
 	
-	/**
-	 * 
-	 */
 	public static final String STRAIGHT_FLUSH_CASE	=	"Straight Flush";	
 
 	public static final String FOUR_OF_KIND_CASE 	=	"Four of a Kind";
@@ -52,5 +51,7 @@ public class PokerConstants {
 	public static final String HEARTS				=	"Hearts";
 	
 	public static final String DIAMONDS				=	"Diamonds";
+	
+	public static final String INPUT_VALIDATION		=	"Please enter the input in a valid format :: D/S/H/C LETTERS (CASE SENSITIVE) followed by Numbers 2-10 OR Letter (CASE SENSITIVE) A/K/Q/J";
 			
 }

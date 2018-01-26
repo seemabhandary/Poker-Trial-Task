@@ -1,16 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<%@ page errorPage = "showError.jsp" %>
+<%@ page isErrorPage = "true" %>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Error Page</title>
 </head>
 <body>
-<%@ page import="com.poker.task.*" %>
 
-<%=PokerUtil.play(request.getParameterMap())%>
+<% exception.getMessage();%>
 
 </body>
 </html>

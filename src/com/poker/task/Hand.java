@@ -1,5 +1,10 @@
 package com.poker.task;
 
+/**
+ * Hand bean class representing each player in the game
+ * @author Seema Bhandary
+ *
+ */
 public class Hand {
 
 	public Hand() {

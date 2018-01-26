@@ -1,5 +1,11 @@
 package com.poker.task;
 
+/**
+ * Card bean class representing the 5 cards with each player
+ * 
+ * @author Seema Bhandary
+ *
+ */
 public class Card {
 
 	private String suit;

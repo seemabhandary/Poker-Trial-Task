@@ -1,8 +1,10 @@
 # Poker Trial Task
 
 Notes:
-The repository contains the source code (in src folder) and the war file (poker.war) generated.
+The repository contains the source code and the war file (poker.war) generated.
 
+Source code:
+Poker folder contains the jsps and the java classes are present in src folder. Class diagram of the classes is also uploaded into the repository
 
 Deployment Instructions:
 1. Install JDK/JRE 1.8

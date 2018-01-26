@@ -8,7 +8,7 @@ Poker folder contains the jsps and the java classes are present in src folder. C
 
 Deployment Instructions:
 1. Install JDK/JRE 1.8
-2. Set the environment variables JAVA_HOME = <path where the JDK is installed>
+2. Set the environment variables JAVA_HOME = path where the JDK is installed
 3. Install apache-tomcat-9.0.2 (Eg: D:\apache-tomcat-9.0.2)
 4. Set the environment variable CATALINA_HOME
 Eg: CATALINA_HOME = C:\apache-tomcat-9.0.2
